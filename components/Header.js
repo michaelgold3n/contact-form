@@ -3,15 +3,9 @@ export default function Header({ title }) {
     <>
       <h1 className="title">{title}</h1>
       <p>
-        Hi 👋! This template gives you a{" "}
-        <a href="https://nextjs.org/">Next.js</a> app with the scaffolding for{" "}
-        <a href="https://www.netlify.com/products/functions/">
-          Netlify Functions
-        </a>
-        , <a href="https://www.netlify.com/products/forms/">Forms</a>, and{" "}
-        <a href="https://docs.netlify.com/routing/redirects/">Redirects</a>. Our
-        aim was to give you the code you would need to hit the ground running
-        with a few fun features.
+       See how IntegrityAI can work for you
+We're aiming to have institutions in all 50 states partner with IntegrityAI to ensure authenticity in writing. Fill out this form to discover what IntegrityAI can do for you.
+Are you a IntegrityAI user looking for support? Check out our FAQ!
       </p>
 
       <p>
