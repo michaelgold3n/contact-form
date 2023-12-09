@@ -1,0 +1,59 @@
+/* Home.module.css */
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    gap: 20px; /* Space between text content and form */
+  }
+  
+  .textContent {
+    flex: 1; /* Takes up half the space of the flex container */
+    padding-right: 20px; /* Adds some space between the text and the form */
+  }
+  
+  .formSection {
+    flex: 1; /* Takes up half the space of the flex container */
+  }
+  
+  .subHeading {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Spacing after the subheading */
+    font-weight: bold; /* Make the subheading bold */
+  }
+  
+  .textItem {
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Spacing between text items */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contentWrapper {
+      flex-direction: column;
+    }
+  
+    .textContent,
+    .formSection {
+      width: 100%; /* Take the full width on small screens */
+      padding-right: 0; /* Reset padding for small screens */
+    }
+  }
+  
