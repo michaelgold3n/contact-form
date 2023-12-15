@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="integrityAiLogo.svg" alt="IntegrityAI Logo" className={styles.logo} />
+        <img src="integrityAiLogo.svg" alt="does this change?" className={styles.logo} />
       </footer>
     </>
   )
